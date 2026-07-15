@@ -1337,3 +1337,17 @@ quand section contact visible */
   color: var(--orange);
   text-decoration: underline;
 }
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.footer-social-link {
+  color: #ffffff;
+  opacity: 0.8;
+  transition: opacity 0.2s, transform 0.2s;
+}
+.footer-social-link:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
