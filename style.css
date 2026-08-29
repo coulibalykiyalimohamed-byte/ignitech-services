@@ -1214,6 +1214,11 @@ quand section contact visible */
   font-size: 0.88rem;
   color: var(--gris-texte);
 }
+.intervention-badge-adresse {
+  font-size: 0.88rem;
+  color: var(--gris-texte);
+  margin-top: 2px;
+}
 .intervention-badge-rdv {
   font-size: 0.85rem;
   font-weight: 600;
